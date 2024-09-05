@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "Camisa Orgânica",
+        "price": 79.90,
+        "category": "Roupas e Acessórios",
+        "image": "imagens/camiseta algodão organico.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Calça de Algodão",
+        "price": 129.90,
+        "category": "Roupas e Acessórios",
+        "image": "imagens/calca algodão organico.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Jaqueta Couro Natural",
+        "price": 199.90,
+        "category": "Roupas e Acessórios",
+        "image": "imagens/jaqueta couro natural.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Tênis Ecológico",
+        "price": 149.90,
+        "category": "Roupas e Acessórios",
+        "image": "imagens/tenis ecologico.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Boné Reciclado",
+        "price": 49.90,
+        "category": "Roupas e Acessórios",
+        "image": "imagens/bone reciclado.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Shampoo Natural e Condicionador",
+        "price": 39.90,
+        "category": "Beleza e Cuidados Pessoais",
+        "image": "imagens/shampoo e condicionador.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Creme Hidratante",
+        "price": 59.90,
+        "category": "Beleza e Cuidados Pessoais",
+        "image": "imagens/hidratante.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Óleo Essencial",
+        "price": 29.90,
+        "category": "Beleza e Cuidados Pessoais",
+        "image": "imagens/oleo essencial.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Sabonete Orgânico",
+        "price": 19.90,
+        "category": "Beleza e Cuidados Pessoais",
+        "image": "imagens/sabonete.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Máscara Facial",
+        "price": 44.90,
+        "category": "Beleza e Cuidados Pessoais",
+        "image": "imagens/mascara facial.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Recipiente Compostável",
+        "price": 69.90,
+        "category": "Itens para Casa",
+        "image": "imagens/compostavel.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Luminária Solar",
+        "price": 89.90,
+        "category": "Itens para Casa",
+        "image": "imagens/luminaria.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Toalha de Algodão",
+        "price": 49.90,
+        "category": "Itens para Casa",
+        "image": "imagens/toalha.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Cesta de Bambu",
+        "price": 79.90,
+        "category": "Itens para Casa",
+        "image": "imagens/cesta.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Cobertor Ecológico",
+        "price": 149.90,
+        "category": "Itens para Casa",
+        "image": "imagens/coberta.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Carregador Solar",
+        "price": 139.90,
+        "category": "Tecnologia Verde",
+        "image": "imagens/carregador.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Fone de Ouvido Ecológico",
+        "price": 89.90,
+        "category": "Tecnologia Verde",
+        "image": "imagens/fone.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Cabo Ecologico",
+        "price": 199.90,
+        "category": "Tecnologia Verde",
+        "image": "imagens/cabo.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Bateria Reciclada",
+        "price": 109.90,
+        "category": "Tecnologia Verde",
+        "image": "imagens/bateria.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Lâmpada LED",
+        "price": 29.90,
+        "category": "Tecnologia Verde",
+        "image": "imagens/led.jpg"
+    }
+]

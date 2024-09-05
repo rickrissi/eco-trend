@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrend - E-commerce Sustentável</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagens/LOGO.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>EcoTrend</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <h4>Filtros</h4>
+                <div class="form-group">
+                    <label for="categoryFilter">Categoria</label>
+                    <select id="categoryFilter" class="form-control">
+                        <option value="">Todas as Categorias</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="priceFilter">Preço Máximo (R$)</label>
+                    <input type="range" id="priceFilter" class="form-control-range" min="0" max="500" step="1" value="500">
+                    <span id="priceValue">500</span>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <h4>Produtos</h4>
+                <div id="product-list" class="row">
+                    <!-- Produtos serão carregados aqui -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Carrinho</h4>
+                <ul id="cart" class="list-group">
+                    <!-- Itens do carrinho serão carregados aqui -->
+                </ul>
+                <button id="checkout" class="btn btn-success mt-3">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>

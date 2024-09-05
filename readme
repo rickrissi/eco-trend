@@ -1,0 +1,40 @@
+Descrição da Aplicação do Código no E-commerce EcoTrend
+O e-commerce EcoTrend é um site especializado em produtos sustentáveis e ecológicos, com o objetivo de promover um estilo de vida mais consciente e sustentável. A implementação do código foi projetada para fornecer uma experiência de usuário interativa e funcional, incorporando várias funcionalidades importantes.
+
+1. Estrutura e Layout
+HTML e CSS:
+
+Estrutura HTML: A estrutura da página foi organizada em seções distintas, incluindo cabeçalho, categorias de produtos, e carrinho de compras. Cada seção é estilizada para garantir uma navegação intuitiva e uma apresentação atraente dos produtos.
+CSS para Estilo: Utilizamos o Bootstrap para criar um layout responsivo e moderno, e o Font Awesome para adicionar ícones. O Google Fonts foi integrado para melhorar a tipografia. Ajustes de CSS foram feitos para garantir que as imagens dos produtos fossem exibidas em tamanhos adequados e que o layout fosse visualmente agradável.
+2. Manipulação do DOM
+Carrinho de Compras Dinâmico:
+
+Adição ao Carrinho: Implementamos funcionalidades para permitir que os usuários adicionem produtos ao carrinho. A interface do carrinho é atualizada instantaneamente, mostrando os itens selecionados e permitindo a visualização e remoção de produtos.
+Sidebar do Carrinho: O carrinho de compras é exibido em uma sidebar, proporcionando uma forma prática de revisar os itens selecionados e continuar a compra.
+Filtragem de Produtos:
+
+Sistema de Filtros: Desenvolvi um sistema de filtragem que permite aos usuários visualizar produtos com base em categorias e faixas de preço. A filtragem é dinâmica e não requer recarregamento da página, proporcionando uma experiência de navegação fluida.
+3. Persistência de Dados
+Armazenamento Local (localStorage):
+
+Persistência do Carrinho: O estado do carrinho de compras é salvo utilizando o localStorage. Isso permite que os itens adicionados ao carrinho sejam mantidos entre sessões, garantindo que o usuário não perca seus produtos ao fechar o navegador.
+Carregamento de Produtos:
+
+Arquivo JSON: Os produtos são carregados a partir de um arquivo JSON. Cada produto possui informações detalhadas, como nome, preço e imagem, que são renderizadas dinamicamente na página.
+4. Requisições Assíncronas
+Integração com API Falsa (Fake API):
+
+Gerenciamento de Produtos: Implementei requisições assíncronas usando fetch para gerenciar produtos e pedidos com uma Fake API. Isso inclui operações GET, POST, PUT e DELETE, permitindo a adição, atualização e remoção de produtos.
+Atualização Dinâmica: O administrador pode adicionar, editar ou remover produtos, e essas mudanças são refletidas automaticamente na interface do usuário.
+Checkout Simulado:
+
+Finalização de Compra: Criei uma funcionalidade para simular o processo de checkout. Usamos promises e async/await para gerenciar a validação de dados e a confirmação de pedidos, exibindo mensagens de sucesso ou erro conforme necessário.
+Carregamento de Dados:
+
+Spinner de Carregamento: Adicionei um spinner para indicar que os dados estão sendo carregados ou processados, melhorando a experiência do usuário durante operações assíncronas.
+5. Favicon
+Adição do Favicon:
+
+Identidade Visual: Implementei um favicon para o site, melhorando a identidade visual e permitindo que o ícone do site apareça na aba do navegador, na barra de favoritos e em outros locais onde o site é representado.
+
+codigo feito por Ricardo Nunes Rissi RM557752
