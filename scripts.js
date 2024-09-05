@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const API_URL = 'products.json'; // URL do arquivo JSON local
+    const API_URL = 'products.json'; 
 
-    // Função para carregar produtos do arquivo JSON
+    
     async function loadProducts() {
         try {
             const response = await fetch(API_URL);
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-  // Função para exibir produtos
+  
 function displayProducts(products) {
     const productList = document.getElementById('product-list');
     productList.innerHTML = '';
@@ -33,7 +33,7 @@ function displayProducts(products) {
         productList.appendChild(productCard);
     });
 
-    // Adicionar eventos aos botões de adicionar ao carrinho
+   
     document.querySelectorAll('.add-to-cart').forEach(button => {
         button.addEventListener('click', function() {
             const productId = this.getAttribute('data-id');
@@ -44,7 +44,7 @@ function displayProducts(products) {
 
 
 
-    // Função para adicionar ao carrinho
+    
     function addToCart(productId) {
         const cart = JSON.parse(localStorage.getItem('cart')) || [];
         const product = {
@@ -61,7 +61,7 @@ function displayProducts(products) {
         updateCartUI();
     }
 
-    // Função para atualizar a UI do carrinho
+    
     function updateCartUI() {
         const cart = JSON.parse(localStorage.getItem('cart')) || [];
         const cartList = document.getElementById('cart');
@@ -76,7 +76,7 @@ function displayProducts(products) {
             cartList.appendChild(listItem);
         });
 
-        // Adicionar eventos aos botões de remover do carrinho
+        
         document.querySelectorAll('.remove-from-cart').forEach(button => {
             button.addEventListener('click', function() {
                 const productId = this.getAttribute('data-id');
@@ -85,7 +85,7 @@ function displayProducts(products) {
         });
     }
 
-    // Função para remover do carrinho
+    
     function removeFromCart(productId) {
         let cart = JSON.parse(localStorage.getItem('cart')) || [];
         cart = cart.filter(item => item.id !== productId);
@@ -93,14 +93,14 @@ function displayProducts(products) {
         updateCartUI();
     }
 
-    // Função de checkout
+  
     document.getElementById('checkout').addEventListener('click', function() {
         alert('Compra finalizada com sucesso!');
         localStorage.removeItem('cart');
         updateCartUI();
     });
 
-    // Função para aplicar filtros
+    
     function applyFilters() {
         const categoryFilter = document.getElementById('categoryFilter').value;
         const priceFilter = document.getElementById('priceFilter').value;
@@ -118,7 +118,7 @@ function displayProducts(products) {
             });
     }
 
-    // Função para popular os filtros de categoria
+    
     function populateCategoryFilters(products) {
         const categories = [...new Set(products.map(product => product.category))];
         const categoryFilter = document.getElementById('categoryFilter');
@@ -131,10 +131,10 @@ function displayProducts(products) {
         categoryFilter.addEventListener('change', applyFilters);
     }
 
-    // Adicionar eventos de filtro
+    
     document.getElementById('priceFilter').addEventListener('input', applyFilters);
 
-    // Inicializar o carrinho e produtos
+    
     loadProducts();
     updateCartUI();
 });
